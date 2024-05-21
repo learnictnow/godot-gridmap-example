@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://p1p8qax5sa8x"]
+
+[ext_resource type="MeshLibrary" uid="uid://c0wgpt727ptcy" path="res://castle_mesh_library.tres" id="1_l73l8"]
+[ext_resource type="Script" path="res://Player.gd" id="2_34nvv"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_o1mvl"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_bdibq"]
+
+[node name="TestGridMapLevel" type="Node3D"]
+
+[node name="GridMap" type="GridMap" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1, 1)
+mesh_library = ExtResource("1_l73l8")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(1, 1, 19, 3, 1, 19, 3, 65535, 19, 1, 65535, 19, 65537, 1, 655378, 65539, 1, 1441810, 65537, 65535, 655369, 131073, 1, 655369, 65539, 65535, 655372, 65541, 2, 655389, 65540, 3, 655389, 65541, 3, 655389, 65542, 2, 655389, 65542, 1, 655389, 65542, 0, 655389, 65543, 65535, 655389, 65543, 0, 655389, 65543, 1, 655389, 65543, 2, 655389, 65542, 3, 655389, 65542, 4, 655389, 65541, 4, 655389, 65540, 4, 655389, 65543, 3, 655389, 65544, 2, 655389, 65544, 1, 655389, 65544, 0, 655389, 65544, 65535, 655389, 65545, 65535, 655389, 65545, 65534, 655389, 65545, 65533, 655389, 65538, 4, 1048606, 131075, 1, 1048602, 131075, 65535, 1048597, 131077, 65535, 1048579, 6, 8, 1048581)
+}
+metadata/_editor_floor_ = Vector3(0, 2, 0)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.35, 0)
+size = Vector3(25, 0.25, 15)
+
+[node name="Player" type="CharacterBody3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -4, 2, 0)
+script = ExtResource("2_34nvv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
+shape = SubResource("CapsuleShape3D_o1mvl")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player"]
+mesh = SubResource("CapsuleMesh_bdibq")
+
+[node name="Camera3D" type="Camera3D" parent="Player"]
+transform = Transform3D(2, 0, 0, 0, 1.41421, 1.41421, 0, -1.41421, 1.41421, 0, 6, 8)

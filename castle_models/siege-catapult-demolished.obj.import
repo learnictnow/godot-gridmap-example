@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dtdrg5wjp5kia"
+path="res://.godot/imported/siege-catapult-demolished.obj-1d51223014b55895c3afb5704b98dad1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/siege-catapult-demolished.obj-1d51223014b55895c3afb5704b98dad1.mesh"]
+
+source_file="res://castle_models/siege-catapult-demolished.obj"
+dest_files=["res://.godot/imported/siege-catapult-demolished.obj-1d51223014b55895c3afb5704b98dad1.mesh", "res://.godot/imported/siege-catapult-demolished.obj-1d51223014b55895c3afb5704b98dad1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

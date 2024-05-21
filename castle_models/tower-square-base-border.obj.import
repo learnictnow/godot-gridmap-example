@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://df5sqft0sc3e4"
+path="res://.godot/imported/tower-square-base-border.obj-94d0ee1f3b0502590bffcb8dd3eaeaac.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tower-square-base-border.obj-94d0ee1f3b0502590bffcb8dd3eaeaac.mesh"]
+
+source_file="res://castle_models/tower-square-base-border.obj"
+dest_files=["res://.godot/imported/tower-square-base-border.obj-94d0ee1f3b0502590bffcb8dd3eaeaac.mesh", "res://.godot/imported/tower-square-base-border.obj-94d0ee1f3b0502590bffcb8dd3eaeaac.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dtaday7ngfqnr"
+path="res://.godot/imported/tower-square-top-roof-high.obj-65aa38630ca98c60521b11f3371b773e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tower-square-top-roof-high.obj-65aa38630ca98c60521b11f3371b773e.mesh"]
+
+source_file="res://castle_models/tower-square-top-roof-high.obj"
+dest_files=["res://.godot/imported/tower-square-top-roof-high.obj-65aa38630ca98c60521b11f3371b773e.mesh", "res://.godot/imported/tower-square-top-roof-high.obj-65aa38630ca98c60521b11f3371b773e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3biiqvpr7cbc"
+path="res://.godot/imported/wall-corner-slant.obj-550fc462c1275ba0b5fc54d2c1c7f3af.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-corner-slant.obj-550fc462c1275ba0b5fc54d2c1c7f3af.mesh"]
+
+source_file="res://castle_models/wall-corner-slant.obj"
+dest_files=["res://.godot/imported/wall-corner-slant.obj-550fc462c1275ba0b5fc54d2c1c7f3af.mesh", "res://.godot/imported/wall-corner-slant.obj-550fc462c1275ba0b5fc54d2c1c7f3af.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

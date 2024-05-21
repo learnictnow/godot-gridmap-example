@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djb3ee4nt1taw"
+path="res://.godot/imported/tower-square-mid-door.obj-9657a0c61046a07cd2dfa9211a27f47d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tower-square-mid-door.obj-9657a0c61046a07cd2dfa9211a27f47d.mesh"]
+
+source_file="res://castle_models/tower-square-mid-door.obj"
+dest_files=["res://.godot/imported/tower-square-mid-door.obj-9657a0c61046a07cd2dfa9211a27f47d.mesh", "res://.godot/imported/tower-square-mid-door.obj-9657a0c61046a07cd2dfa9211a27f47d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

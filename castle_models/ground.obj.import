@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://0e06o08a4u5k"
+path="res://.godot/imported/ground.obj-796a3fbd6ff49bb416be79ea828ca4b5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ground.obj-796a3fbd6ff49bb416be79ea828ca4b5.mesh"]
+
+source_file="res://castle_models/ground.obj"
+dest_files=["res://.godot/imported/ground.obj-796a3fbd6ff49bb416be79ea828ca4b5.mesh", "res://.godot/imported/ground.obj-796a3fbd6ff49bb416be79ea828ca4b5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

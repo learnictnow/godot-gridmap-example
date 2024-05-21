@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://p67qu3djqmjg"
+path="res://.godot/imported/tower-hexagon-roof-secondary.obj-894e97a55ed05d79f81747316738683f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tower-hexagon-roof-secondary.obj-894e97a55ed05d79f81747316738683f.mesh"]
+
+source_file="res://castle_models/tower-hexagon-roof-secondary.obj"
+dest_files=["res://.godot/imported/tower-hexagon-roof-secondary.obj-894e97a55ed05d79f81747316738683f.mesh", "res://.godot/imported/tower-hexagon-roof-secondary.obj-894e97a55ed05d79f81747316738683f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

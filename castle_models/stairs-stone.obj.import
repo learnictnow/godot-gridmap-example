@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chlwu1am0qs4m"
+path="res://.godot/imported/stairs-stone.obj-dc4f4e900db8a3e6f260adc4048b7ed5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stairs-stone.obj-dc4f4e900db8a3e6f260adc4048b7ed5.mesh"]
+
+source_file="res://castle_models/stairs-stone.obj"
+dest_files=["res://.godot/imported/stairs-stone.obj-dc4f4e900db8a3e6f260adc4048b7ed5.mesh", "res://.godot/imported/stairs-stone.obj-dc4f4e900db8a3e6f260adc4048b7ed5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
